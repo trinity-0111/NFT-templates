@@ -8,7 +8,7 @@ All contracts are compilable and come with Unit tests.
 
 ### Develop from templates
 
-Modify as necessary, you can expect to use general hardhat commands. Examples:
+Modify contracts as necessary, you can expect to use general hardhat commands. Examples:
 ```shell
 npx hardhat compile
 npx hardhat test
@@ -33,7 +33,7 @@ To verify the contract through etherscan, create an etherscan account and API ke
 
 ## Specification
 ### SimpleNFT
-`SimpleNFT` is a simple NFT template that supports the following features:
+`SimpleNFT` is a simple NFT Solidity smart contract template that supports the following features:
 * Max total supply (set at the time of deployment)
 * Incremental pricing after each mint
 * Updatable Base URI (by owner of contract only)
