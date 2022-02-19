@@ -13,6 +13,7 @@ All contracts are compilable and come with Unit tests.
 
 Modify contracts as necessary, you can expect to use general hardhat commands. Examples:
 ```shell
+yarn install
 npx hardhat compile
 npx hardhat test
 REPORT_GAS=true npx hardhat test
